@@ -1,3 +1,3 @@
 # AutomationStation
 
-Automate everything
+Automate everything, okay
