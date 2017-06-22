@@ -1,0 +1,62 @@
+﻿.centered {
+    width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#top-nav {
+    top: 0;
+    left: 200px;
+}
+
+    #top-nav li {
+        float: left;
+        position: relative;
+        list-style: none;
+    }
+
+        #top-nav li a {
+            display: block;
+            color: #78939f;
+            font: 16px/59px Square;
+            padding: 0 43px;
+        }
+
+.carousel {
+    margin-bottom: 60px;
+}
+
+    .carousel .item {
+        height: 450px;
+        background-color: #78939f;
+    }
+
+.marketing {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+    .marketing .col-lg-4 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .marketing h2 {
+        font-weight: normal;
+    }
+
+    .marketing .col-lg-4 p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+.marketing {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.carousel-caption p {
+    margin-bottom: 30px;
+    font-size: 19px;
+    line-height: 1.5.4;
+}

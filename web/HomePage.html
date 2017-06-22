@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />-->
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <!--header-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="HomePage.aspx">Automation Station</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Welcome to the Automation Station</h1>
+                        <p>
+                            ENTER TEXT
+                        </p>
+                        <p>
+                            <button class="btn btn-lg btn-primary" ID="btnSubmitNewTask">Submit New Task</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container marketing">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img class="img-circle" src="http://carsandocthane.com/wp-content/uploads/2016/12/2017-Honda-CRV-600x428-140x140.jpg" />
+                <h2>Category 1</h2>
+                <p>ENTER TEXT</p>
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Click Me</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal1" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Modal 1</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>param 1: <input id="txtParam1" type="text" /></p>
+                                <p>param 2: <input id="txtParam2" type="text" /></p>
+                                <p>email: <input id="txtEmail" type="text" /></p>
+                                <input id="btnSubmit" type="button" value="button" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <img class="img-circle" src="http://www.bestsportcars.net/wp-content/uploads/toyota-hybrid-r-concept-140x140.jpg" />
+                <h2>Category 2</h2>
+                <p>ENTER TEXT</p>
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2">Click Me</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal2" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Modal 2</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>param 1: <input id="txtParam1" type="text" /></p>
+                                <p>param 2: <input id="txtParam2" type="text" /></p>
+                                <p>email: <input id="txtEmail" type="text" /></p>
+                                <input id="btnSubmit" type="button" value="button" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <img class="img-circle" src="http://www.forcegt.com/wp-content/uploads/2016/05/2017-nismo-nissan-gtr-next-level-600hp-nurburgring-1-e1464358881218-140x140.jpg" />
+                <h2>Category 3</h2>
+                <p>ENTER TEXT</p>
+                <!-- Trigger the modal with a button -->
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3">Click Me</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal3" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Please enter params</h4>
+                            </div>
+                            <div class="modal-body">                                
+                                <p>param 1: <input id="txtParam1" type="text" /></p>
+                                <p>param 2: <input id="txtParam2" type="text" /></p>
+                                <p>email: <input id="txtEmail" type="text" /></p>
+                                <input id="btnSubmit" type="button" value="button" />
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="container text-center">
+        <hr />
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="col-md-3">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="#">Cars for Student</a></li>
+                        <li><a href="#">View Showroom</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="#">Service analytics</a></li>
+                        <li><a href="#">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li><a href="#">Car Help</a></li>
+                        <li><a href="#">Tow Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="nav nav-pills nav-justified">
+                    <li><a href="#">© 2017 Temple CRS</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+    </div>
+</body>
+</html>
