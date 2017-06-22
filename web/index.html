@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="StyleSheet.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -55,7 +56,7 @@
                 <h2>Category 1</h2>
                 <p>ENTER TEXT</p>
                 <!-- Trigger the modal with a button -->
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Click Me</button>
+                <button type="button" onclick="foo" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal1">Click Me</button>
 
                 <!-- Modal -->
                 <div class="modal fade" id="myModal1" role="dialog">
@@ -65,20 +66,17 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal">&times;</button>
+
                                 <h4 class="modal-title">Modal 1</h4>
                             </div>
                             <div class="modal-body">
-                            <form action="execute.php" method="post">
                                 <p>param 1: <input id="txtParam1" type="text" /></p>
                                 <p>param 2: <input id="txtParam2" type="text" /></p>
                                 <p>email: <input id="txtEmail" type="text" /></p>
-                                <input id="btnSubmit" type="button" value="button" onclick="select()"/></form>
+                                <form action="execute.php" method="get">
+                                <input type="submit" value="Submit"></form>
                             </div>
-                            <?php
-                                function select(){
-                                    exec("/Users/Brian/test_script.sh");
-                                }
-                            ?>
+                            
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                             </div>

@@ -1,1 +1,1 @@
-date >> /Users/Brian/Documents/Work\ Related/JP\ Morgan/AutomationStation/scripts/test.log
+date >> /Users/Brian/Documents/Work/JPMC/AutomationStation/scripts/test.log
